@@ -1,17 +1,32 @@
-# counter_cubit
+# 🧮 Counter App using Cubit (Flutter)
 
-A new Flutter project.
+This is a simple **Flutter counter application** that demonstrates **Cubit state management** using the `flutter_bloc` package. It's perfect for beginners who want to understand how to separate logic from UI in a clean and testable way using **Cubit**, a lightweight version of BLoC.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Increment / Decrement counter value
+- Cubit for state management
+- Clean separation of UI and business logic
+- Beginner-friendly code structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# counter_app_cubit
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Dart**
+- **flutter_bloc** for state management
+
+---
+
+## 📦 Dependencies
+
+Make sure you have the following dependencies in your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3 # or latest
